@@ -3,55 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>중앙배치 — Tailwind CSS</title>
+    <title>Tailwind CSS</title>
     <link rel="icon" href="./assets/favicon.svg" />
 		<link rel="stylesheet" href="./styles/output.css" />
   </head>
-  <body class="bg-sky-100 h-screen flex justify-center items-center">
-		<!-- <h1 class="text-3xl p-4 m-4">유틸리티 퍼스트 - Tailwind CSS</h1>
-		<figure class="w-40 hidden sm:block">
-      <img src="./assets/tailwind-text-logo.svg" alt="Tailwind CSS" />
-      <figcaption>텍스트 로고</figcaption>
-    </figure>
-    <button  type="button" class="focus:outline-2 focus:outline-red-500 bg-sky-500 hover:bg-sky-700 px-4 py-2 rounded-xl">Save Changes</button>
-     -->
-    <!-- <div class="h-svh flex justify-center items-center">
-      <div class="bg-white w-120 p-6 drop-shadow-sm rounded-2xl flex">
-        <img class="w-20 pr-6" src="./assets/tailwind-logo.svg" alt="테일윈드 로고" />
-        <div>
-          <h2 class="text-3xl font-bold text-sky-500">Tailwind CSS</h2>
-          <p class="my-1.5 text-apple-black font-normal">다양한 Tailwind CSS의 유틸리티 세트를 활용해 복잡한 컴포넌트를 구성할 수 있습니다.</p>
-          <a href="#" class="text-[14px] font-normal text-sky-700">유틸리티 퍼스트 펀더멘탈</a>
-        </div>
-      </div>
-    </div> -->
-    <!-- <div class="bg-white w-1/2 min-w-3xs flex items-center gap-6 p-6 rounded-xl shadow-2xl text-sky-500 hover:text-green-500 focus:outline-2 focus:outline-green-500" tabindex="0">
-
-      <svg class="size-16 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 54 33">
-        <g clip-path="url(#prefix__clip0)">
-          <path fill="currentColor" fill-rule="evenodd" d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z" clip-rule="evenodd"/>
-        </g>
-        <defs><clipPath id="prefix__clip0"><path fill="#fff" d="M0 0h54v32.4H0z"/></clipPath>
-        </defs>
-      </svg>
-
-      <div class="space-y-3">
-        <h1 class="text-3xl font-bold">Tailwind CSS</h1>
-        <p class="text-black">다양한 Tailwind CSS의 유틸리티 세트를 활용해 복잡한 컴포넌트를 구성할 수 있습니다.</p>
-        <a class="underline" href="#">유틸리티 퍼스트 펀더멘탈</a>
-      </div>
-    </div> -->
-    <div class="text-sky-500 max-w-[600px] grid p-4 gap-y-2 gap-x-4 bg-white drop-shadow-sm rounded-xl grid-cols-[auto_auto] grid-rows-[auto_auto_auto]">
-      <svg class="col-span-1 row-span-3 size-20 self-center" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 54 33">
-        <g clip-path="url(#prefix__clip0)">
-          <path fill="currentColor" fill-rule="evenodd" d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z" clip-rule="evenodd"/>
-        </g>
-        <defs><clipPath id="prefix__clip0"><path fill="#fff" d="M0 0h54v32.4H0z"/></clipPath>
-        </defs>
-      </svg>
-      <h1 class="font-bold text-2xl row-span-1 col-span-1">Tailwind CSS</h1>
-      <p class="text-black row-span-1 col-span-1">다양한 Tailwind CSS의 유틸리티 세트를 활용해 복잡한 컴포넌트를 구성할 수 있습니다.</p>
-      <a class="row-span-1 col-span-1" href="./test/test.html">유틸리티 퍼스트 펀더멘탈</a>
-    </div>
+  <body class="w-screen">
+		<h1 class="text-center text-3xl font-bold m-6 ">Tailwind CSS</h1>
+    <ul class="w-3/4 mx-auto max-w-[800px] grid grid-cols-(--lion)">
+      <li class="bg-yellow-100"><a href="./example-01.html" class="block p-4 text-center capitalize  font-semibold">example-01</a></li>
+      <li class="bg-yellow-200"><a href="./example-02.html" class="block p-4 text-center capitalize font-semibold">example-02</a></li>
+      <li class="bg-yellow-300"><a href="./example-03.html" class="block p-4 text-center capitalize font-semibold">example-03</a></li>
+      <li class="bg-yellow-400"><a href="./example-04.html" class="block p-4 text-center capitalize font-semibold">example-04</a></li>
+      <li class="bg-lime-100"><a href="./example-05.html" class="block p-4 text-center capitalize font-semibold">example-05</a></li>
+      <li class="bg-lime-200"><a href="./example-06.html" class="block p-4 text-center capitalize font-semibold">example-06</a></li>
+      <li class="bg-lime-300"><a href="./example-07.html" class="block p-4 text-center capitalize font-semibold">example-07</a></li>
+      <li class="bg-lime-400"><a href="./example-08.html" class="block p-4 text-center capitalize font-semibold">example-08</a></li>
+      <li class="bg-pink-100"><a href="./example-09.html" class="block p-4 text-center capitalize font-semibold">example-09</a></li>
+      <li class="bg-pink-200"><a href="./example-10.html" class="block p-4 text-center capitalize font-semibold">example-10</a></li>
+      <li class="bg-pink-300"><a href="./example-11.html" class="block p-4 text-center capitalize font-semibold">example-11</a></li>
+      <li class="bg-pink-400"><a href="./example-12.html" class="block p-4 text-center capitalize font-semibold">example-12</a></li>
+    </ul>
   </body>
-</html>
+  <!-- grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] -->
+  <!-- sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 -->
+</html>0
